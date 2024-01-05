@@ -1,8 +1,11 @@
-# React + Vite
+Solance -  Solana Wallet Balance Display(running on Devnet)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single page application that allows you to check the balance of the sol in your wallet. Makes use of Solana web3 js and Solana wallet adapter libraries, built with React and vite
 
-Currently, two official plugins are available:
+Features 
+- Displays the current price of SOL/USD
+- Connect your Solana wallet
+- Automatically fetches and displays the balance of the connected wallet
+- Displays how much the current Sol in the wallet is worth in USD
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vercel - https://vercel.com/curlyhairedfreaks-projects/solana-balance-checker/A6m1UyTBFY1cBC4MSMPit22Y4MjP
