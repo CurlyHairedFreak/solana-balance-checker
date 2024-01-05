@@ -2,6 +2,7 @@ import React from "react";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
 import {
+  PhantomWalletAdapter,
   SolflareWalletAdapter,
   LedgerWalletAdapter,
   CoinbaseWalletAdapter,
@@ -23,6 +24,7 @@ function App() {
   // Initialising wallets for use
   const wallets = React.useMemo(
     () => [
+      new PhantomWalletAdapter(),
       new SolflareWalletAdapter(),
       new LedgerWalletAdapter(),
       new CoinbaseWalletAdapter(),
