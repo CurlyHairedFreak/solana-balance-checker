@@ -8,4 +8,4 @@ Features
 - Automatically fetches and displays the balance of the connected wallet
 - Displays how much the current Sol in the wallet is worth in USD
 
-Vercel - https://vercel.com/curlyhairedfreaks-projects/solana-balance-checker/A6m1UyTBFY1cBC4MSMPit22Y4MjP
+Vercel - https://solana-balance-checker-phi.vercel.app/
