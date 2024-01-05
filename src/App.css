@@ -1,0 +1,67 @@
+* {
+  font-family: 'Audiowide', sans-serif;
+}
+
+body {
+ background-color: #FFB6C1
+}
+
+.container {
+  border: 5px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 470px;
+  margin: 50px auto 0 auto;
+  padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.header--title {
+  position: relative;
+  margin: 50px 0 2px 0;
+}
+
+.header--title::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #00FFA3, #03E1FF, #DC1FFF )
+}
+
+.main--img {
+  width: 20px;
+  margin-right: 8px;
+  margin-top: -1px;
+}
+
+.main--sol--amount {
+  display: flex;
+  justify-content: center;;
+  width: 600px
+}
+
+.main--walletInfo {
+  margin-top: 40px;
+}
+
+.wallet-adapter-button {
+  margin: 0 auto;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.wallet-adapter-button-trigger {
+  font-family: 'Audiowide', sans-serif;
+}
